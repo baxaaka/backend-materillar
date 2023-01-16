@@ -1,0 +1,74 @@
+        <<----------------BACKEND -------------------------------->>
+
+// Exucation context --ikki marta uqilishni aytiladi  ,  yani mana shularni ->>
+// ->> Creation phase va Exucation phase 
+
+------------------------------------------------------------------------------------------
+                     // this , bind , call 
+
+//object ichidagi this objectni uziga teng 
+
+//this- yani osilvoladi 
+
+// Bind --- yani ikta objecti bir biringa connect qiladi , yani ulaydi 
+
+// reference error -- elon qilinmasa
+
+
+
+//instanceoff ----- yani shunikimi degani 
+
+
+// class = bu function jamlaydi (obj) ,, usha classni ichiga harhil funkiya metodla yozib ketsa bolarkan 
+
+// construcotr = bu yani |const shaxs =  <- new -> || (Person)| yangi funksiya ochadi  , funksiyalarni jamlaydi , classni ichida metotla turadii 
+
+
+///---------------------------------NODE JS-------------------------------
+
+require --- huddi importag narsa , oberadi
+
+path --- moduli adress bilan ishlaydi , togri adress oberadi 
+
+os --- operatsion sistema 
+
+url --
+
+
+custom modul -- bu tugridan tugri ishlatsak buladi
+
+build in - qurilgan modullar 
+
+third-part --- bu internat yuklab keyin ishlatsak buladi , install qivolish kerak 
+
+
+basename-- oxiridagini oberadi , masalan : path.basename(__filename)-- oxiridagi filne nomini oberadi
+
+extname ---       nuqtadan keyingi faylni tipini olib beraadi 
+
+dirname -- biz turgan papkani adresini   oberadi
+
+
+normalize -- tugurlaydi adresni , keraksizni ob tashayadi kupincha slash uchun 
+
+
+freemem --- bizga operatsion tizimimizdagi bosh joyni olib 
+
+ 
+
+// -----fs -----
+
+fs 
+
+fs.writeFileSync --- masalan fs.writeFileSync(__dirname  + "./main2.js" , "let x =10 ") --main js 2 yani usha faylini ichiga kirib ichidagilani uchirib berilgan qiymatni solib quyadi    ^
+                                                                            ^ - mana qiymat  -hardoyim stringda yuborish kerak
+
+fc.readFileSync  --- shuni uqiydi  hozir writee  bilan yozdik eni shuni uqiydi  yani boyagi papkani ichidagini yani malumotlarini 
+
+fc.appendFileSync --- bu qoshado lekn filni ichidagi qiymatini uchirmaydi davom etriiib qoshib ketaveradi
+
+
+
+fc.unlinkSync -- bu ochiradi  
+
+join -- slashga aylantiradi yani qushadi slash qilib tashalaydi
